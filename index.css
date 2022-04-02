@@ -1,0 +1,84 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #fbf7ee;
+}
+
+.hero {
+  background-image: linear-gradient(
+    45deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(289deg 100% 21%) 11%,
+    hsl(315deg 100% 27%) 22%,
+    hsl(329deg 100% 36%) 33%,
+    hsl(337deg 100% 43%) 44%,
+    hsl(357deg 91% 59%) 56%,
+    hsl(17deg 100% 59%) 67%,
+    hsl(34deg 100% 53%) 78%,
+    hsl(45deg 100% 50%) 89%,
+    hsl(55deg 100% 50%) 100%
+  );
+}
+
+.hero h1 {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 38px;
+  height: 60px;
+}
+
+input {
+  border: none;
+  background: none;
+  height: 90px;
+  color: white;
+  text-align: center;
+  font-size: 3.5em;
+  width: 250px;
+}
+
+::placeholder {
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+
+:placeholder-shown {
+  width: 250px;
+  color: white;
+  font-size: 3.5em;
+}
+
+input[type="number"] {
+  color: white;
+}
+
+.panel {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #fbf7ee;
+}
+
+.panel h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.panel h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
